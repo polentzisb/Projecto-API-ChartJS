@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!---Google Font--->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500;1,700&display=swap" rel="stylesheet"> 
+  <!---Favicon--->
+  <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/x-icon">
+  <!---Bootstrap--->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css" />
+  <title>Planets</title>
+</head>
+<body>
+
+  <div class="title">
+    <h1>Curious Data Planets</h1><br>
+    <h3>In this site you can find random data about the planets in the solar system</h3>
+    <div class="boxsc">
+      <img src="./assets/images/2130.jpg">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="card text-center m-5">
+      <div class="card-header"></div>
+      <h2>Year in Earth Days</h2>
+      <canvas id="myChart"></canvas>
+    </div>
+  
+    <div class="card text-center m-5">
+      <div class="card-header"></div>
+      <h2>Moons</h2>
+      <canvas id="myChart2"></canvas>
+    </div>
+  
+    <div class="card text-center m-5">
+      <div class="card-header"></div>
+      <h2>Diameter Km</h2>
+      <canvas id="myChart3"></canvas>
+    </div>
+  
+    <div class="card text-center m-5">
+      <div class="card-header"></div>
+      <h2>Average Temperature </h2>
+      <canvas id="myChart4"></canvas>
+    </div>
+  </div>
+
+  
+  
+ 
+  <!---Chart JS--->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+  <!---Javascrit--->
+  <script type="module" src="./graficos JS/final.js"></script>
+</body>
+</html>
