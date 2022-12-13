@@ -6,4 +6,5 @@ para "envolver" los graficos.
 Puedes acceder a través del siguiente link: 
 https://chart-api-planet.netlify.app/
 
-![apichart](https://user-images.githubusercontent.com/75914262/188286164-919aeed8-42a9-4344-b102-10c62cd6dc5c.jpg)
+
+![planetas](https://user-images.githubusercontent.com/75914262/207379458-0440b7e4-c270-460f-9067-faa0a9b0285e.png)
