@@ -1,8 +1,7 @@
 # Projecto-API-ChartJS
-Proyecto 03. API-CHARTJS-JS
-En este proyecto se utilizo la libreria ChartJS para graficar datos a través de alguna API. Se puede ver los datos de las lunas de cada planeta, 
+En este proyecto se utilizo la libreria ChartJS para graficar datos a través de una API. Se pueden ver los datos de las lunas de cada planeta, 
 duración de un año en días terrestres, temperatura promedio y el diametro en KMs. Presenta un diseño simple de css y html. Se utilizaron Cards de Bootstrap 
-para "cerrar" los graficos.
+para "envolver" los graficos.
 Puedes acceder a través del siguiente link: 
 https://chart-api-planet.netlify.app/
 
